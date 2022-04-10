@@ -1,0 +1,52 @@
+/* 
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+- Mobile: 375px
+- Desktop: 1440px
+*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;;
+}
+.container {
+  margin: 0 auto;
+}
+.card {
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  text-align: center;
+  &__image {
+    padding: 1rem;
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+  &__info {
+    padding: 1rem;
+  }
+  &__info-title{
+    color: hsl(218, 44%, 22%);
+  }
+  &__info-description{
+    color: hsl(220, 15%, 55%);
+    margin: 1rem 0;
+  }
+}

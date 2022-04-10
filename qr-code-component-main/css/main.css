@@ -1,0 +1,67 @@
+/* 
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+- Mobile: 375px
+- Desktop: 1440px
+*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-color: #d6e2f0;
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card__image {
+  padding: 1rem;
+}
+
+.card__image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card__info {
+  padding: 1rem;
+}
+
+.card__info-title {
+  color: #1f3251;
+}
+
+.card__info-description {
+  color: #7b879d;
+  margin: 1rem 0;
+}
